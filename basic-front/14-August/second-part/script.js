@@ -30,7 +30,7 @@ const createTodoElement = (todo) => {
   const uniqueId = `todo_${uniqueIdCounter++}`;
   checkbox.id = uniqueId;
   //   checkbox.name = `checkbox_${todo.id}`;
-  checkbox.id = `checkbox_${todo.id}`;
+  //   checkbox.id = `checkbox_${todo.id}`;
   checkbox.addEventListener("change", (e) => {
     const label = document.getElementById(`label_${todo.id}`);
     label.classList.toggle("todo_label-done");
@@ -73,4 +73,3 @@ const writeNewTodo = async (todo) => {
     return e;
   }
 };
-renderTodos();
