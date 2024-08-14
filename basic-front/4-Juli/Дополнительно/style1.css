@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 50px;
+}
+.btn {
+    /* display: inline-block; */
+    padding: 0.5em 1em;
+    font-size: 1em; /* Размер шрифта базовый */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #112ab8; /* Цвет рамки */
+    border-radius: 5px; /* Скругление углов */
+    color: #007bff; /* Цвет текста */
+    margin: 10px;
+    background-color: transparent; Прозрачный фон
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+    transition: all 0.3s ease; */
+}
+
+/* Стили для маленькой кнопки */
+.btn.sm {
+    font-size: 0.5em;
+}
+
+/* Стили для большой кнопки */
+.btn.xl {
+    font-size: 1.5em;
+}
+
+/* Hover-эффект для кнопок */
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}

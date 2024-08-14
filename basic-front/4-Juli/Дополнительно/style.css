@@ -1,0 +1,36 @@
+/* Скрыть стандартный чекбокс */
+.checkbox-container input {
+    display: none;
+}
+/* Контейнер для чекбокса */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+/* Кастомный чекмарк */
+.checkmark {
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+/* Стилизация, когда чекбокс выбран */
+.checkbox-container input:checked + .checkmark {
+    background-color: #10c23d;
+}
+/* Отображение галочки */
+.checkbox-container input:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

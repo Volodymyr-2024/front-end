@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+header {
+    background: #323232;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.menu_right {
+    max-width: fit-content;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.menu_right h4 {
+    margin-right: 40px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.menu_right button {
+    font-size: 14px;
+    background: #FF3C00;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.intro {
+    padding: 232px 0;
+    background: url('../images/background.png') no-repeat center center / cover;
+    /* background-image: url('../assets/intro__background.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+}
+.intro_content {
+    position: relative;
+}
+.intro_content h1{
+    font-size: 77px;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-weight: 800;
+}
+.intro_text {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 52px 0;
+}
+.intro_content p {
+    font-size: 20px;
+    max-width: 900px;
+    line-height: 33.6px;
+}
+.intro_content button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 22px 36px;
+    border: none;
+    background: #323232;
+}
+.intro_content::before {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: url('../assets/logo.svg') no-repeat center center / contain;
+    right: 0;
+    transform: translate(15%, 70%);
+}

@@ -1,0 +1,37 @@
+. {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.element1 {
+    width: 75px;
+    height:75px;
+    background-color: rgb(22, 187, 31);
+    border-radius: 50%;
+    position: relative;
+    top: 75%;
+    left: -5%;
+}
+.element2 {
+    width: 75px;
+    height:75px;
+    background-color: rgb(210, 20, 20);
+    border-radius: 50%;
+    position: relative;
+    left: 80%;
+    top: 25%;    
+}
+.element3{
+    width: 7px;
+    height:75px;
+    background-color: black; 
+    position: relative;
+    left: 10%;
+    bottom: 200px;
+}

@@ -1,0 +1,15 @@
+Git status - проверка статуса изменений в коде
+Git add . - принять изменения сразу во всех файлах
+Git commit -m ‘init’ - отправляем изменения через гит
+Git push origin main - отправление изменений непосредственно в устаревшую версию ветки проэкта
+
+
+ul.post>li.post__item*5
+Это будет равно:
+<ul class="post">
+        <li class="post__item"></li>
+        <li class="post__item"></li>
+        <li class="post__item"></li>
+        <li class="post__item"></li>
+        <li class="post__item"></li>
+    </ul>

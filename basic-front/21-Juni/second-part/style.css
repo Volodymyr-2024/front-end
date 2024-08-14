@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+.about_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.about_content p {
+    max-width: 460px;
+}
+.shop_list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.btn {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+}
+.shop_list p {
+    margin: 20px 0;
+}

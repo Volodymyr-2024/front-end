@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+        <form action="" id="main_form">
+            <div class="form-group">
+              <label for="input_name">Имя</label>
+              <input type="text" class="input" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="input_lastname">Фамилия</label>
+              <input type="text" iclass="input" d="last_name" />
+            </div>
+            <div class="form-group">
+              <label for="input_email">Email</label>
+              <input type="email" class="input" id="email" />
+              <small class="error_email"></small>
+              <small class="error_pass"></small>
+            </div>
+            <div class="form-group">
+              <label for="input_password">Пароль</label>
+              <input type="password" class="input" id="password" />
+            </div>
+            <div><input type="checkbox" id="checkbox" />Подписаться на рассылку</div>
+            <div>
+              <button id="btn" class="reset">Сбросить</button>
+              <button id="btn" class="submit" type="submit">Отправить</button>
+            </div>
+          </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 300px;
+    height: 300px;
+    margin: 10% auto;
+    border: 2px solid black;
+    position: relative;
+}
+.box2 {
+    background-color: rgb(99, 123, 245);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+}
+.box1 {
+    background-color: rgb(246, 83, 75);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    z-index: 2;
+}
+.box3 {
+    background-color: rgb(52, 248, 65);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 3;
+}
+.container span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

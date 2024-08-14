@@ -1,0 +1,9 @@
+<a target="_blank" href="https://www.figma.com/design/glYuvEGzg4GpvR186h191c/Landing-Page-Concept-For-Data-Processing-Company-(Copy)?node-id=1-2&t=fad0zGKgDA6nnr4S-0">LINK</a>
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

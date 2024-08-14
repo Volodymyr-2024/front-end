@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.zag{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+   
+}
+.abz {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+.abz_2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.abz_3 {
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+}

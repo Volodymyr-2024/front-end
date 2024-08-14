@@ -1,0 +1,59 @@
+<div class="container">
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 80vh;
+    background-color: #333331;
+    padding-top: 15%;
+}
+
+.container__content {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.container__content h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.content__form {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.form__input {
+    margin: 10px 0;
+}
+
+.form__input input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #333331;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid #333331;
+    border-radius: 8px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    border: 2px solid #570031;
+    transition: 0.5s ease-in-out;
+    
+}

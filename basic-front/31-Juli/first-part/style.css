@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+[data-theme="light"] > body {
+  background-color: #ffffff;
+  color: #000000;
+}
+[data-theme="dark"] > body {
+  background-color: #000000;
+  color: #ffffff;
+}
+[data-theme="red"] > body {
+    background-color: #F51400;
+    color: #FBF4F4;
+}

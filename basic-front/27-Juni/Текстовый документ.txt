@@ -1,0 +1,35 @@
+.box {
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10% auto;
+    position: relative;
+}
+.box:hover {
+    background: red;
+    /* transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); */
+    transition-duration: 1s;
+}
+.box::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    bottom: -25px;
+    left: -25px;
+}
+/* псевдоэлементы */
+.box::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    top: -25px;
+    right: -25px;
+}
+<div class="box">
+    </div>

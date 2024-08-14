@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul, ol {
+    list-style: none;
+} 
+a {
+    text-decoration: none;
+    color: inherit;
+} 
+th, td {
+    background-color: aqua;
+    padding: 5px;
+    border-bottom: 1px solid red 
+}
+.table__item {
+    background-color: blue;
+    margin-left: 20px;
+}
+.table__body-item img{
+width: 50px;
+}
+.btn {
+    background: transparent;
+    border: 1px solid teal;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}

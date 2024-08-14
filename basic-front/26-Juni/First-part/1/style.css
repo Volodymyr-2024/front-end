@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative; 
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.box { 
+    position: relative; 
+    width: 100px;
+    height: 100px; 
+    background-color: red;
+    border-radius: 50%;
+    right: 50px; 
+    bottom: 50px;
+}
+.relative_box {
+    position: relative; 
+    width: 100px;
+    height: 100px;    
+    left: 250px;
+    bottom: -50px; 
+    background-color: blue; }
+    .r1 { 
+        position: relative; 
+        width: 100px;
+        height: 100px; 
+        background-color: rgb(0, 255, 21);       
+        right: 50px; 
+        bottom: 50px;
+    }
+    .r2 {
+        position: relative; 
+        width: 100px;
+        height: 100px;    
+        left: 250px;
+        bottom: 350px; 
+        border-radius: 50%;
+        background-color: rgb(255, 0, 195); }
