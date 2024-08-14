@@ -1,3 +1,5 @@
+let uniqueIdCounter = 0;
+
 const fetchTodos = async () => {
   try {
     const res = await fetch("https://dummyjson.com/todos");
@@ -19,21 +21,22 @@ const renderTodos = async () => {
     container.append(element);
   });
 };
-
 const createTodoElement = (todo) => {
   const element = document.createElement("div");
   element.className = "todo";
   const checkbox = document.createElement("input");
-  checkbox.type = "checkbox"
+  checkbox.type = "checkbox";
   checkbox.checked = Boolean(todo.completed);
-//   checkbox.name = `checkbox_${todo.id}`;
+  const uniqueId = `todo_${uniqueIdCounter++}`;
+  checkbox.id = uniqueId;
+  //   checkbox.name = `checkbox_${todo.id}`;
   checkbox.id = `checkbox_${todo.id}`;
   checkbox.addEventListener("change", (e) => {
     const label = document.getElementById(`label_${todo.id}`);
     label.classList.toggle("todo_label-done");
   });
   const label = document.createElement("label");
-  label.id = `label_${todo.id}`;
+  label.id = `label_${uniqueId}`;
   label.htmlFor = checkbox.id;
   label.innerHTML = todo.todo;
   if (checkbox.checked) {
@@ -43,7 +46,7 @@ const createTodoElement = (todo) => {
   return element;
 };
 const renderSingleTodo = (todo) => {
-    const container = document.getElementById("container")
+  const container = document.getElementById("container");
   const element = createTodoElement(todo);
   container.append(element);
 };
@@ -66,9 +69,8 @@ const writeNewTodo = async (todo) => {
     });
     const createTodo = await res.json();
     renderSingleTodo(createTodo);
-
   } catch (e) {
     return e;
   }
 };
-renderTodos()
+renderTodos();
