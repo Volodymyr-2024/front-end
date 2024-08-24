@@ -1,0 +1,31 @@
+@import "./reset.scss";
+@import "./variable.scss";
+
+body {
+  background: $main-bg-color;
+}
+.container {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    li {
+      width: fit-content;
+      &:nth-child(2) {
+        color: $main-text-color;
+        border-bottom: 1px solid red;
+      }
+    }
+  }
+}
+.list {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: $main-text-color;
+}

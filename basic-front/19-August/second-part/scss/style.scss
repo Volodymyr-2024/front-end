@@ -1,0 +1,12 @@
+@import "./mixins.scss";
+@import "./reset.scss";
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+
+  &_item {
+    margin: 0 auto;
+    padding: 10px;
+  }
+}

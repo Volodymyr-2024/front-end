@@ -1,0 +1,7 @@
+@import "./variable";
+@import "./reset.scss";
+@import "./mixins.scss";
+
+.container {
+@include card
+}

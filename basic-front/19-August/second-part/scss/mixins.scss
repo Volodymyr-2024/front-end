@@ -1,0 +1,12 @@
+@mixin borderRadius {
+  border-radius: 8px;
+}
+@mixin red {
+  background-color: red;
+}
+@mixin black {
+    background-color: black;
+}
+@mixin color {
+    color: white;
+}
